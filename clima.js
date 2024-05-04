@@ -8,7 +8,7 @@ buscar.addEventListener('click',()=>{
 
     if (nombre_ciudad.value != ''){
     const ciudad = nombre_ciudad.value;
-    const url =`http://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=${APIkey}`;
+    const url =`https://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=${APIkey}`;
 
     fetch(url).then(async (response)=>{
         console.log(url)
