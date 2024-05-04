@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Freeman&display=swap');
+body{
+    background-color: #1234DB;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Freeman", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.contenedor__busqueda{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.busqueda{
+    height: 100px;
+    background-color: #2990a9 ;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 10px 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 2px 4px #5BC2DB;
+}
+
+.busqueda_input{
+    width: 15rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    border-radius: 8px;
+    text-align: center;
+}
+.nombre_ciudad{
+    font-size: 1.5rem;
+}
+#buscar{
+    width: 8rem;
+    height: 3rem;
+    border-radius: 0.55rem;
+    background-color: #12DBC2;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.contenedor__ciudad{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(auto-fit,minmax(10rem,21rem));
+    gap: 1rem;
+    justify-content: center;
+    margin: 30px;
+}
+.contenedor__ciudad div{
+    background-color: #11B1DB;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    box-shadow: 0 0 2px 4px #5BC2DB;
+}
+.tipo{
+    padding: 10px 0;
+    background-color: #0002a9;
+    color: #11B1DB;
+    box-shadow: 0 3px 5px black;
+}
+p{
+    font-size: 1.3rem;
+    text-shadow: 1px 1px 5px white;
+}
