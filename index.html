@@ -1,11 +1,11 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <title>Obtener Clima</title>
     <link rel="stylesheet" href="./test.css">
     <!--    <script defer src="./test.js"></script>-->
-    <script defer src="./clima.js"></script>
+    <script defer src="clima.js"></script>
 </head>
 <body>
 <div class="contenedor">
@@ -13,31 +13,31 @@
         <h1>CLIMA EN TU CIUDAD</h1>
         <div class="busqueda">
             <label for="ciudad" class="nombre_ciudad">Ingresa el nombre de tu ciudad</label>
+            <img class="icono" src="./img/díanublado.png" alt="">
             <input class="busqueda_input" type="text" name="ciudad" id="ciudad">
-            <input type="button" name="buscar" id="buscar" value="Obtener clima">
+            <button name="buscar" id="buscar" >Obtener clima</button>
         </div>
     </div>
     <div class="contenedor__ciudad">
         <div id="city">
-            <h1 class="tipo ciudad">Ciudad</h1>
+            <h1 class="tipo ciudad"><img class="icono2" src="./img/ciudad.svg" alt=""> Ciudad</h1>
             <p class="latitud"></p>
             <p class="longitud"></p>
         </div>
         <div id="temp">
-            <h1 class="tipo">Temperatura</h1>
+            <h1 class="tipo"><img class="icono2" src="./img/soleado.png" alt=""> Temperatura</h1>
             <p class="temperatura"></p>
             <p class="sensacion"></p>
             <p class="temp_minima"></p>
             <p class="temp_maxima"></p>
         </div>
         <div id="pres">
-            <h1 class="tipo">Presión</h1>
-            <p class="presion"></p>
+            <h1 class="tipo"><img class="icono2" src="./img/termometro.png" alt=""> Presión</h1>            <p class="presion"></p>
             <p class="humedad"></p>
             <p class="visibilidad"></p>
         </div>
         <div id="wind">
-            <h1 class="tipo">Viento</h1>
+            <h1 class="tipo"><img class="icono2" src="./img/viento.png" alt=""> Viento</h1>
             <p class="velocidad"></p>
             <p class="direccion"></p>
             <p class="rafagas"></p>

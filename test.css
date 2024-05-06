@@ -43,7 +43,12 @@ body{
     font-size: 1rem;
     cursor: pointer;
 }
-
+.icono{
+    width: 64px;
+}
+.icono2{
+    width: 32px;
+}
 .contenedor__ciudad{
     display: grid;
     grid-template-rows: repeat(2,1fr);
