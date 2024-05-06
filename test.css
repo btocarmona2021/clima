@@ -9,20 +9,20 @@ body{
     font-style: normal;
 }
 .contenedor__busqueda{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
+    margin: 0 auto;
+    display: grid;
+   grid-template-columns: 1fr;
+    grid-template-rows: 100px 260px;
+    text-align: center;
 }
 .busqueda{
-    height: 100px;
     background-color: #2990a9 ;
-    display: flex;
-    align-items: center;
-    gap: 30px;
-    padding: 10px 40px;
-    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 80px 60px 60px;
+
     box-shadow: 0 0 2px 4px #5BC2DB;
+
 }
 
 .busqueda_input{
@@ -30,10 +30,12 @@ body{
     height: 3rem;
     font-size: 1.5rem;
     border-radius: 8px;
-    text-align: center;
+    justify-self: center;
+
 }
 .nombre_ciudad{
     font-size: 1.5rem;
+    justify-self: center
 }
 #buscar{
     width: 8rem;
@@ -42,9 +44,11 @@ body{
     background-color: #12DBC2;
     font-size: 1rem;
     cursor: pointer;
+    justify-self: center
 }
 .icono{
     width: 64px;
+    justify-self: center
 }
 .icono2{
     width: 32px;
